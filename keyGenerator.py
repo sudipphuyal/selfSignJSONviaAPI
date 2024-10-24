@@ -12,11 +12,11 @@ os.makedirs(public_key_dir, exist_ok=True)
 
 # List of users and their passphrases
 users = {
-    "PersonA": "my_secret_passphrase",
-    "PersonB": "another_passphrase",
-    "PersonC": "passphrase123",
-    "PersonD": "super_secret_pass",
-    "PersonE": "random_passphrase"
+    "PersonA": "personA",
+    "PersonB": "personB",
+    "PersonC": "personC",
+    "PersonD": "personD",
+    "PersonE": "personE"
 }
 
 def generate_rsa_key_pair(user_id, passphrase):

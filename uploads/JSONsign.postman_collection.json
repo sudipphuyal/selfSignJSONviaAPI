@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "e4adf2b5-42c5-45e2-97b2-f8977c7652b3",
+		"name": "JSONsign",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14851044"
+	},
+	"item": [
+		{
+			"name": "Sign",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/sudip/Files/Wallet/signAndVerifyAPIs/patientdata.json"
+						},
+						{
+							"key": "signer",
+							"value": "PersonA",
+							"type": "text"
+						},
+						{
+							"key": "passphrase",
+							"value": "my_secret_passphrase",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/sign",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"sign"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Verify",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/sudip/Files/Wallet/signAndVerifyAPIs/signed/signed_patientdata.json"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/verify",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"verify"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
