@@ -1,0 +1,58 @@
+{
+    "patient_id": "P123456",
+    "first_name": "John",
+    "last_name": "Doe",
+    "gender": "Male",
+    "date_of_birth": "1985-06-15",
+    "address": {
+        "street": "123 Elm Street",
+        "city": "Springfield",
+        "state": "IL",
+        "postal_code": "62704",
+        "country": "USA"
+    },
+    "phone_number": "+1-555-123-4567",
+    "email": "john.doe@example.com",
+    "emergency_contact": {
+        "name": "Jane Doe",
+        "relationship": "Spouse",
+        "phone": "+1-555-765-4321"
+    },
+    "medical_history": [
+        {
+            "condition": "Hypertension",
+            "diagnosis_date": "2010-08-01",
+            "treatment": "Medication"
+        },
+        {
+            "condition": "Diabetes Type 2",
+            "diagnosis_date": "2015-01-20",
+            "treatment": "Insulin Therapy"
+        }
+    ],
+    "allergies": [
+        "Penicillin",
+        "Peanuts"
+    ],
+    "current_medications": [
+        {
+            "medication_name": "Metformin",
+            "dose": "500 mg",
+            "frequency": "Twice a day"
+        }
+    ],
+    "primary_physician": {
+        "name": "Dr. Sarah Thompson",
+        "phone": "+1-555-987-6543",
+        "email": "sarah.thompson@hospital.com"
+    },
+    "insurance_provider": {
+        "company": "Health Insurance Co.",
+        "policy_number": "INS987654321",
+        "contact_number": "+1-555-111-2222"
+    },
+    "last_visit": "2023-09-15",
+    "signed_by": "PersonA",
+    "signature": "cd9733fe35a25e1a85425d32e920eec9d5049f67eb356bfaa6d8036a30fa0207bfaa412ccaf99fb4c79a33c9f54861e8e0806e84e0d3bba0a6436575f7c09c38531e7bd78a2d6211d26449a8c63f223eeb856d54ed0a0acc706fc47381506f063d8b199dc67c34734e7985253a6b67cfebfced5671c3f26f977cc9f5b7390182096f723c3f929a54bbf39fe098ab8d9c35382027a9fa12b018488e5df1c75f8412e30e362701299b820f887e6cafa6b18d81b2fba34c5c4efaa7edb1264b123a253e64df4d4905041151ad7fd8ddd14991a468c1eba880ae14051411206d39413ba988bb1a98d2728265fc562d5b161caed2956f04afddc83627d8de74640926",
+    "public_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4mtaEjRwy5q1nq/jHPfA\nCNRZydDvryHqpRX1YW0+Uu5za81PZnU6rlRFsn0jGTr7M9vR/cNLaBxy0QEQYzkf\neHuwg/6fD+zeNqTc8XXBCMNWn5hAFYPEmu2EVzS3FI+bmUH4K0b0QXnc4C3v11Q3\nAGq+kyiojAS/pfenU2xgjfhFQ9iRHmMEFUAeU4/KiTqJDeyqukat9o0A31FX/cGI\nDOZ9QWgHn+CPiU+eB4LPdjcB9nTdkLJ5kBzQTARJaJAAN8+4GodrhXRbnARmTrHo\nk7DAuGC458dRyG9BPFU2yuK9LTUDxk39y6QqqitqIbC0bs6a7M/PpCNtakjJsDcd\n8QIDAQAB\n-----END PUBLIC KEY-----\n"
+}

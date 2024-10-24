@@ -1,0 +1,55 @@
+{
+    "patient_id": "P123456",
+    "first_name": "John",
+    "last_name": "Doe",
+    "gender": "Male",
+    "date_of_birth": "1985-06-15",
+    "address": {
+        "street": "123 Elm Street",
+        "city": "Springfield",
+        "state": "IL",
+        "postal_code": "62704",
+        "country": "USA"
+    },
+    "phone_number": "+1-555-123-4567",
+    "email": "john.doe@example.com",
+    "emergency_contact": {
+        "name": "Jane Doe",
+        "relationship": "Spouse",
+        "phone": "+1-555-765-4321"
+    },
+    "medical_history": [
+        {
+            "condition": "Hypertension",
+            "diagnosis_date": "2010-08-01",
+            "treatment": "Medication"
+        },
+        {
+            "condition": "Diabetes Type 2",
+            "diagnosis_date": "2015-01-20",
+            "treatment": "Insulin Therapy"
+        }
+    ],
+    "allergies": [
+        "Penicillin",
+        "Peanuts"
+    ],
+    "current_medications": [
+        {
+            "medication_name": "Metformin",
+            "dose": "500 mg",
+            "frequency": "Twice a day"
+        }
+    ],
+    "primary_physician": {
+        "name": "Dr. Sarah Thompson",
+        "phone": "+1-555-987-6543",
+        "email": "sarah.thompson@hospital.com"
+    },
+    "insurance_provider": {
+        "company": "Health Insurance Co.",
+        "policy_number": "INS987654321",
+        "contact_number": "+1-555-111-2222"
+    },
+    "last_visit": "2023-09-15"
+}

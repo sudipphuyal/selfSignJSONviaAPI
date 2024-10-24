@@ -1,0 +1,58 @@
+{
+    "patient_id": "P123456",
+    "first_name": "John",
+    "last_name": "Doe",
+    "gender": "Male",
+    "date_of_birth": "1985-06-15",
+    "address": {
+        "street": "123 Elm Street",
+        "city": "Springfield",
+        "state": "IL",
+        "postal_code": "62704",
+        "country": "USA"
+    },
+    "phone_number": "+1-555-123-4567",
+    "email": "john.doe@example.com",
+    "emergency_contact": {
+        "name": "Jane Doe",
+        "relationship": "Spouse",
+        "phone": "+1-555-765-4321"
+    },
+    "medical_history": [
+        {
+            "condition": "Hypertension",
+            "diagnosis_date": "2010-08-01",
+            "treatment": "Medication"
+        },
+        {
+            "condition": "Diabetes Type 2",
+            "diagnosis_date": "2015-01-20",
+            "treatment": "Insulin Therapy"
+        }
+    ],
+    "allergies": [
+        "Penicillin",
+        "Peanuts"
+    ],
+    "current_medications": [
+        {
+            "medication_name": "Metformin",
+            "dose": "500 mg",
+            "frequency": "Twice a day"
+        }
+    ],
+    "primary_physician": {
+        "name": "Dr. Sarah Thompson",
+        "phone": "+1-555-987-6543",
+        "email": "sarah.thompson@hospital.com"
+    },
+    "insurance_provider": {
+        "company": "Health Insurance Co.",
+        "policy_number": "INS987654321",
+        "contact_number": "+1-555-111-2222"
+    },
+    "last_visit": "2023-09-15",
+    "signed_by": "PersonA",
+    "signature": "d3339ea6e3e85c64dd3fe1d1c3515d0056fdac4ea77ac109a177d60e6df016d0ad90639a42a3620492fc4a4bbb308557ef7ad2706e9479149c275471915feaf8a676b5ba064749876f87e9012b8cb917d71b55d4b2aa4f1d280d0b8ee74e67036a1f1dae08ce4197665e5587c13059094828edc7ab3553729b9b2fd4e578f13afa8795b91d297c7568199f2359a2a0f9298ad277d6074e82e2346b19f4f2812ad2b2a8adba30183d3a80579927b9bea1ac36ec9b27db8d029439d1ed9bce6555f021c7e1abbf6c26471d3177aa858c5d1fc8341694a6d7fe64ef0be2d67dca441905b5900b9bcddebf5bd0a0ea68254a6eb2dcf15fe4fb6b488d1d952f089d0f",
+    "public_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4mtaEjRwy5q1nq/jHPfA\nCNRZydDvryHqpRX1YW0+Uu5za81PZnU6rlRFsn0jGTr7M9vR/cNLaBxy0QEQYzkf\neHuwg/6fD+zeNqTc8XXBCMNWn5hAFYPEmu2EVzS3FI+bmUH4K0b0QXnc4C3v11Q3\nAGq+kyiojAS/pfenU2xgjfhFQ9iRHmMEFUAeU4/KiTqJDeyqukat9o0A31FX/cGI\nDOZ9QWgHn+CPiU+eB4LPdjcB9nTdkLJ5kBzQTARJaJAAN8+4GodrhXRbnARmTrHo\nk7DAuGC458dRyG9BPFU2yuK9LTUDxk39y6QqqitqIbC0bs6a7M/PpCNtakjJsDcd\n8QIDAQAB\n-----END PUBLIC KEY-----\n"
+}
